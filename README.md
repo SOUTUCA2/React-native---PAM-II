@@ -77,8 +77,8 @@ npx eas-cli@latest login
 npx eas-cli@latest build --platform android --profile preview
 ```
 
-O projeto já está vinculado ao EAS. O APK atual pode ser baixado por este link:
+O APK atual está na raiz do projeto como [`Rota-Express.apk`](./Rota-Express.apk). Ele também pode ser baixado pelo link do EAS:
 
 [Baixar APK Android](https://expo.dev/artifacts/eas/tpN68hsl3oOHDlHbRaMyh-CPcuus2JO0gx5U9tJ_lb8.apk)
 
-Antes da entrega, instale o APK em um dispositivo Android ou emulador e confirme que o app abre. O APK gerado pelo EAS não é incluído como binário no repositório; o link acima permite baixar o arquivo sem adicionar um binário grande ao Git.
+O APK foi instalado e aberto em um Moto G04. O arquivo também está versionado no GitHub para facilitar a entrega.
