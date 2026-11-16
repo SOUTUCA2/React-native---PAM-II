@@ -1,5 +1,12 @@
 # Rota Express — PAM II
 
+## Integrantes
+
+- Lucas Eduardo
+- Lucas Honda
+- Murilo Magalhães
+- Vinicius Correia
+
 Aplicativo didático de acompanhamento de entregas em React Native com Expo SDK 58. O trajeto é simulado localmente por coordenadas pré-definidas; não há backend nem rastreamento real de entregadores.
 
 ## Funcionalidades
