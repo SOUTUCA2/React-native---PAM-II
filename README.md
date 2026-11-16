@@ -61,10 +61,6 @@ npx expo run:ios
 
 O projeto agora usa Expo SDK 58, compatível com o Expo Go SDK 58. Porém, o Expo Go não inclui o módulo nativo do widget Android. Para testar o aplicativo completo, incluindo o widget, instale Android Studio com JDK/SDK e use `npx.cmd expo run:android` para compilar um development build. Depois de instalar, adicione o widget **Status da entrega** pela tela de widgets do Android. `npx.cmd expo start` com Expo Go pode ser usado para uma prévia, mas não oferece o widget nativo.
 
-## Demonstração em aula
-
-O marcador percorre a lista `DELIVERY_ROUTE` em `src/delivery.js`. A cada 5 segundos, a tela atualiza a posição, distância, status e previsão. Ajuste esse array para simular outro trajeto. O alerta de proximidade é enviado uma vez por simulação quando a distância fica abaixo de 500 m; o botão de reinício permite testar novamente.
-
 ## Gerar APK para entrega
 
 O perfil `preview` em `eas.json` gera um APK Android instalável. Para gerar o arquivo na nuvem do Expo, instale/acesse uma conta Expo e, na raiz do projeto, execute:
